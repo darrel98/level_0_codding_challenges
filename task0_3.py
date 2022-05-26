@@ -1,6 +1,6 @@
 name = "Lethabo"
-#funtion takes string as arguments 
-def hello(name):
-    print("Hello " + name + "!") 
+ 
+def hello(text1):
+    print("Hello " + text1 + "!") 
 
 hello(name)
