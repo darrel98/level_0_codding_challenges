@@ -1,8 +1,8 @@
-def vowels(string1,string2):
+def common_letters(string1,string2):
     a = []
     for x in string1 :
         if x in string2:
             a.append(x)
-    print(*a , sep = ",")  
+    print("Common letters:",*a , sep = ",")  
 
-vowels("thabo","jacobb")
+common_letters("thabo","jacobb")
