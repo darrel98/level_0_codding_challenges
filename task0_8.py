@@ -18,8 +18,10 @@ def to_hours_and_minutes(value):
             print(str(hours) + "hours" + str(0) + "minutes" )
     elif value > 1 :
            print( str(value) + "minutes" )
+    elif value ==0:
+         print(str(value) + "hours" + str(value) + "minutes" )
     else :
-        print( str(value) + "minute" )
+        print( "0hours ," + str(value) + "minute" )
         
 
 
