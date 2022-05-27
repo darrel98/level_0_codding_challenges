@@ -4,25 +4,25 @@ def to_hours_and_minutes(value):
         if value % 60 > 0 :
             minutes = value % 60
             if hours > 1 and minutes > 1:
-                print(str(hours) + "hours" + str(minutes) + "minutes" )
+                 print("%shours, %sminutes" %(hours,minutes))
         
             elif hours > 1 and minutes == 1:
-                print(str(hours) + "hours," + str(minutes) + "minute" )
+               print("%shours, %sminute" %(hours,minutes))
             elif hours ==1 and minutes == 1:
-                print(str(hours) + "hour," + str(minutes) + "minute" )
+                print("%shour, %sminute" %(hours,minutes))
             elif hours ==1 and minutes > 1:
-                print(str(hours) + "hour," + str(minutes) + "minutes" )
+                print("%shour, %sminutes"%(hours,minutes))
         elif hours ==1 :
-            print(str(hours) + "hour" + str(0) + "minutes" )   
+            print("%shour, %sminutes"%(hours,0) )   
         else :
-            print(str(hours) + "hours" + str(0) + "minutes" )
+            print("%shours, %s minutes"%(hours,0) )
     elif value > 1 :
-           print( str(value) + "minutes" )
+           print("%sminutes" %(value))
     elif value ==0:
-         print(str(value) + "hours" + str(value) + "minutes" )
+         print("%s hours, %sminutes"%(value,value) )
     else :
-        print( "0hours ," + str(value) + "minute" )
+        print( "0hours, %s minute" %(value))
         
 
 
-to_hours_and_minutes(1)
+to_hours_and_minutes(70)

@@ -5,5 +5,5 @@ def vowels(text):
         if x in vowels:
             if x not in vowel:
                 vowel.append(x)
-    print("Vowels:" *vowel , sep ="," )
+    print("Vowels:", *vowel , sep ="," )
 vowels("aluwawAS")

@@ -6,7 +6,13 @@ def maximum(number1,number2,number3):
         return number2
     elif number3 >number1 and number3 >number2 :
         return number3
-    else : #execute the else part only if some numbers are equal
+    elif number1 == number2:
+        return number1
+    elif number1 == number3:
+        return number1
+    elif number3 == number2 :
+        return number3
+    else :
         return 0 
 
-print(str(maximum(1,8,8)))
+print(str(maximum(1,8,9)))
