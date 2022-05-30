@@ -4,6 +4,6 @@ def common_letters(string1,string2):
         if x in string2.lower():
             if x not in a:
                 a.append(x)
-    print("Common letters:",*a , sep = ", ")  
+    print("Common letters:"+ " , ".join(a))  
 
 common_letters("THABO","LETHABO")

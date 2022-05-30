@@ -1,7 +1,7 @@
 
 def even_or_odd(value):
 
-    if value % 2 == 0: #checks if the value is even
+    if value % 2 == 0: 
         print( "even" )
     else :
         print( "odd" )
