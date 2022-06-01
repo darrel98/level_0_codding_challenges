@@ -17,7 +17,7 @@ def to_hours_and_minutes(value):
         else :
             print(f"{hours} hours , {0} minutes" )
     elif value > 1 :
-           print(f"{value} minutes")
+           print(f"{0} hours , {value} minutes")
     elif value ==0:
          print(f"{value} hours , {value} minutes" )
     else :
@@ -25,4 +25,4 @@ def to_hours_and_minutes(value):
         
 
 
-to_hours_and_minutes(80)
+to_hours_and_minutes(59)
